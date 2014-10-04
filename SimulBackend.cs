@@ -16,7 +16,7 @@ namespace Application
 		public int Id { get; set; }
 		public string Content { get; set; }
 	}
-	public class SimulBackend
+	public class Backend
 	{
 		// On implémente : get (n), put (event), get (n1, n2), rand() 
 		// On suppose que le string renvoyé est codé en JSON
@@ -29,4 +29,3 @@ namespace Application
 		public void Put (Event e) {}
 	}
 }
-
